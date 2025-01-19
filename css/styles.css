@@ -1,96 +1,96 @@
 
 
 /* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
+  Base styles: opinionated defaults
+  ========================================================================== */
 
-   html {
-    color: #000000;
-    font-size: 1em;
-    line-height: 1.4;
-  }
-  
-  /*
-   * Remove text-shadow in selection highlight:
-   * https://twitter.com/miketaylr/status/12228805301
-   *
-   * Customize the background color to match your design.
-   */
-  
-  ::-moz-selection {
-    background: #f8f8f8;
-    text-shadow: none;
-  }
-  
-  ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-  }
-  
-  /*
-   * A better looking default horizontal rule
-   */
-  
-  hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-  }
-  
-  /*
-   * Remove the gap between audio, canvas, iframes,
-   * images, videos and the bottom of their containers:
-   * https://github.com/h5bp/html5-boilerplate/issues/440
-   */
-  
-  audio,
-  canvas,
-  iframe,
-  img,
-  svg,
-  video {
-    vertical-align: middle;
-  }
-  
-  /*
-   * Remove default fieldset styles.
-   */
-  
-  fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /*
-   * Allow only vertical resizing of textareas.
-   */
-  
-  textarea {
-    resize: vertical;
-  }
- 
-  
-  /* ==========================================================================
-     Author's custom styles
-     ========================================================================== */
+  html {
+  color: #000000;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+  * Remove text-shadow in selection highlight:
+  * https://twitter.com/miketaylr/status/12228805301
+  *
+  * Customize the background color to match your design.
+  */
+
+::-moz-selection {
+  background: #f8f8f8;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+  * A better looking default horizontal rule
+  */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+  * Remove the gap between audio, canvas, iframes,
+  * images, videos and the bottom of their containers:
+  * https://github.com/h5bp/html5-boilerplate/issues/440
+  */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+  * Remove default fieldset styles.
+  */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+  * Allow only vertical resizing of text areas.
+  */
+
+textarea {
+  resize: vertical;
+}
+
+
+/* ========= Author's custom styles ========= */
 body {
   background: rgb(244, 244, 244);
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 
 .content-wrapper {
-  color: white;
-  margin: auto
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.white-box {
+
+.coffee-card {
   background-color: white;
   width: 1400px;
   height: 470px;
@@ -102,16 +102,16 @@ body {
 
 
 h1 {
-color: #636262;
-font-size: 2.25em;
-line-height: 1.25em;
-letter-spacing: 1.3px;
-line-height: 1.45em;
-margin: 0;
+  color: #636262;
+  font-size: 2.25em;
+  line-height: 1.25em;
+  letter-spacing: 1.3px;
+  line-height: 1.45em;
+  margin: 0;
 }
 
 .post-title {
-width: 575px;
+  width: 575px;
 }
 
 p {
@@ -121,7 +121,6 @@ p {
   font-weight: 600;
   letter-spacing: 1.3px;
   line-height: 1.75em;
-  font
 }
 
 img {
@@ -133,14 +132,14 @@ img {
 }
 
 .text-box {
-float: right;
-width: 675px;
-position: bottom;
+  float: right;
+  width: 675px;
+  position: bottom;
 }
 
 .poster-info {
-margin-top: 450px;
-border: black solid 2px;
+  margin-top: 450px;
+  border: black solid 2px;
 }
 
 
