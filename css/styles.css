@@ -89,11 +89,12 @@ body {
   height: 100vh;
 }
 
-
 .coffee-card {
   background-color: white;
-  width: 1400px;
-  height: 470px;
+  display: flex;
+  flex: wrap;
+  max-width: 1400px;
+  max-height: 470px;
   border-radius: 30px;
   padding: 25px;
   margin: auto;
@@ -123,7 +124,7 @@ p {
   line-height: 1.75em;
 }
 
-img {
+.coffee-image {
   float: left;
   width: 700px;
   height: auto;
@@ -131,16 +132,52 @@ img {
   border-radius: 30px;
 }
 
+i {
+  color: #636262;
+  font-size: 2em;
+}
+
 .text-box {
   float: right;
   width: 675px;
-  position: bottom;
+  padding-left: 30px;
+}
+
+.info-box {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  border: black solid 2px;  
 }
 
 .poster-info {
-  margin-top: 450px;
-  border: black solid 2px;
+  display: flex;
+  align-items: flex-end;
+  float: left;
+  max-width: 700px;
 }
+
+.profile-pic {
+  max-width: 700px;
+}
+
+.poster-name {
+  margin: 0;
+  padding: 0;
+  max-width: 700px;
+}
+
+.date {
+  margin: 0;
+  padding: 0;
+  max-width: 700px;
+}
+
+.share-icon {
+  border: black solid 2px;
+  margin-left: auto;
+  float: right;
+  };
 
 
 
