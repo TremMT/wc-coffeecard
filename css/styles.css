@@ -117,8 +117,8 @@ h1 {
 
 p {
   margin: 35px 0;
-  color: rgb(197, 197, 197);;
-  font-size: 1.0em;
+  color: rgb(131, 131, 131);;
+  font-size: 1.30em;
   font-weight: 600;
   letter-spacing: 1.3px;
   line-height: 1.75em;
@@ -138,27 +138,28 @@ i {
 }
 
 .text-box {
-  float: right;
+  display: flex;
+  flex-wrap: wrap;
   width: 675px;
   padding-left: 30px;
+  
 }
 
 .info-box {
   display: flex;
   align-items: flex-end;
   width: 100%;
-  border: black solid 2px;  
+  padding-bottom: 20px;
 }
 
 .poster-info {
-  display: flex;
-  align-items: flex-end;
-  float: left;
   max-width: 700px;
+  height: 200px;
 }
 
 .profile-pic {
-  max-width: 700px;
+  max-width: 20%;
+  border-radius: 50%;
 }
 
 .poster-name {
@@ -174,9 +175,8 @@ i {
 }
 
 .share-icon {
-  border: black solid 2px;
   margin-left: auto;
-  float: right;
+  padding-right: 10px
   };
 
 
