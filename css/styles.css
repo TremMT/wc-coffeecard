@@ -79,7 +79,6 @@ body {
   background: rgb(244, 244, 244);
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-style: normal;
 }
 
 .content-wrapper {
@@ -111,6 +110,11 @@ h1 {
   margin: 0;
 }
 
+h4 {
+  color: #636262;
+  font-size: 1.5em;
+  letter-spacing: .75px;
+}
 .post-title {
   width: 575px;
 }
@@ -121,7 +125,7 @@ p {
   font-size: 1.30em;
   font-weight: 600;
   letter-spacing: 1.3px;
-  line-height: 1.75em;
+  line-height: 1.65em;
 }
 
 .coffee-image {
@@ -153,25 +157,25 @@ i {
 }
 
 .poster-info {
-  max-width: 700px;
-  height: 200px;
+  max-width: 500px;
+  padding-left: 20px;
 }
 
 .profile-pic {
-  max-width: 20%;
+  max-width: 12%;
   border-radius: 50%;
 }
 
 .poster-name {
   margin: 0;
   padding: 0;
-  max-width: 700px;
+ 
 }
 
 .date {
   margin: 0;
   padding: 0;
-  max-width: 700px;
+  letter-spacing: normal;
 }
 
 .share-icon {
